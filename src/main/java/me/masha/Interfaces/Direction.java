@@ -4,5 +4,4 @@ public enum Direction {
     Up,
     Down,
     There,
-    Impulses
 }

@@ -3,146 +3,120 @@
   <ID>JAVA</ID>
   <OriginalElement>me.masha.Interfaces.Visible</OriginalElement>
   <nodes>
-    <node x="397.0" y="518.0">me.masha.Main</node>
-    <node x="-74.0" y="341.0">me.masha.Objects.Flowers</node>
-    <node x="491.70833333333326" y="295.0">me.masha.Objects.Scooperfield</node>
-    <node x="153.45833333333326" y="329.5">me.masha.Objects.Tree</node>
-    <node x="149.0" y="518.0">me.masha.Interfaces.Direction</node>
-    <node x="-74.0" y="518.0">me.masha.Interfaces.Body</node>
-    <node x="244.45833333333326" y="44.5">me.masha.Interfaces.Watchable</node>
-    <node x="427.4583333333333" y="44.5">me.masha.Interfaces.Seemable</node>
-    <node x="1305.2083333333333" y="44.5">me.masha.Interfaces.Talkable</node>
-    <node x="1081.2083333333333" y="44.5">me.masha.Interfaces.Movable</node>
-    <node x="747.2083333333333" y="44.5">me.masha.Interfaces.Visible</node>
-    <node x="783.9583333333333" y="329.5">me.masha.Objects.Wind</node>
-    <node x="-3.716666666666697" y="-14.0">me.masha.Objects.Essence</node>
-    <node x="1612.7833333333333" y="44.5">me.masha.Interfaces.Flyable</node>
-    <node x="918.2083333333333" y="44.5">me.masha.Interfaces.Feelable</node>
-    <node x="1113.9583333333333" y="329.5">me.masha.Objects.Bird</node>
+    <node x="397.0" y="495.0">me.masha.Main</node>
+    <node x="1137.3833333333334" y="294.5">me.masha.Objects.Flowers</node>
+    <node x="719.0" y="225.0">me.masha.Objects.Scooperfield</node>
+    <node x="1322.3833333333334" y="283.0">me.masha.Objects.Tree</node>
+    <node x="149.0" y="495.0">me.masha.Interfaces.Direction</node>
+    <node x="-74.0" y="495.0">me.masha.Interfaces.Body</node>
+    <node x="362.0" y="44.5">me.masha.Interfaces.Watchable</node>
+    <node x="946.325" y="44.5">me.masha.Interfaces.Seemable</node>
+    <node x="150.0" y="44.5">me.masha.Interfaces.Talkable</node>
+    <node x="1545.7833333333333" y="44.5">me.masha.Interfaces.Movable</node>
+    <node x="545.0" y="44.5">me.masha.Interfaces.Visible</node>
+    <node x="1562.3833333333334" y="283.0">me.masha.Objects.Wind</node>
+    <node x="1152.1666666666667" y="-14.0">me.masha.Objects.Essence</node>
+    <node x="-74.0" y="44.5">me.masha.Interfaces.Flyable</node>
+    <node x="716.0" y="44.5">me.masha.Interfaces.Feelable</node>
+    <node x="340.0333333333333" y="283.0">me.masha.Objects.Bird</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="me.masha.Objects.Scooperfield" target="me.masha.Interfaces.Movable" relationship="REALIZATION">
-      <point x="51.0" y="-89.0" />
-      <point x="644.7083333333333" y="275.0" />
-      <point x="748.8416666666667" y="275.0" />
-      <point x="748.8416666666667" y="205.0" />
-      <point x="1183.2083333333333" y="205.0" />
-      <point x="0.0" y="31.0" />
-    </edge>
     <edge source="me.masha.Objects.Tree" target="me.masha.Interfaces.Movable" relationship="REALIZATION">
-      <point x="51.0" y="-54.5" />
-      <point x="306.4583333333333" y="255.0" />
-      <point x="1178.2083333333333" y="255.0" />
-      <point x="1178.2083333333333" y="215.0" />
-      <point x="1183.2083333333333" y="215.0" />
+      <point x="55.0" y="-54.5" />
+      <point x="1487.3833333333334" y="185.0" />
+      <point x="1647.7833333333333" y="185.0" />
       <point x="0.0" y="31.0" />
     </edge>
     <edge source="me.masha.Objects.Bird" target="me.masha.Interfaces.Flyable" relationship="REALIZATION">
-      <point x="51.0" y="-54.5" />
-      <point x="1266.9583333333333" y="235.0" />
-      <point x="1624.2083333333333" y="235.0" />
-      <point x="1624.2083333333333" y="225.0" />
-      <point x="1714.7833333333333" y="225.0" />
+      <point x="-51.0" y="-54.5" />
+      <point x="391.0333333333333" y="205.0" />
+      <point x="135.66666666666674" y="205.0" />
+      <point x="135.66666666666674" y="195.0" />
+      <point x="28.0" y="195.0" />
       <point x="0.0" y="31.0" />
     </edge>
     <edge source="me.masha.Objects.Flowers" target="me.masha.Objects.Essence" relationship="GENERALIZATION">
       <point x="0.0" y="-43.0" />
-      <point x="9.0" y="265.0" />
-      <point x="93.2833333333333" y="265.0" />
+      <point x="1219.8833333333334" y="195.0" />
+      <point x="1249.1666666666667" y="195.0" />
       <point x="0.0" y="89.5" />
     </edge>
     <edge source="me.masha.Objects.Wind" target="me.masha.Interfaces.Movable" relationship="REALIZATION">
-      <point x="51.0" y="-54.5" />
-      <point x="936.9583333333334" y="245.0" />
-      <point x="1459.4166666666665" y="245.0" />
-      <point x="1459.4166666666665" y="195.0" />
-      <point x="1183.2083333333333" y="195.0" />
+      <point x="53.0" y="-54.5" />
+      <point x="1721.3833333333334" y="185.0" />
+      <point x="1647.7833333333333" y="185.0" />
       <point x="0.0" y="31.0" />
     </edge>
     <edge source="me.masha.Objects.Scooperfield" target="me.masha.Interfaces.Feelable" relationship="REALIZATION">
-      <point x="51.0" y="-89.0" />
-      <point x="644.7083333333333" y="275.0" />
-      <point x="748.8416666666667" y="275.0" />
-      <point x="748.8416666666667" y="195.0" />
-      <point x="989.7083333333333" y="195.0" />
+      <point x="-51.0" y="-112.5" />
+      <point x="770.0" y="205.0" />
+      <point x="704.0" y="205.0" />
+      <point x="704.0" y="185.0" />
+      <point x="787.5" y="185.0" />
       <point x="0.0" y="31.0" />
     </edge>
     <edge source="me.masha.Objects.Tree" target="me.masha.Objects.Essence" relationship="GENERALIZATION">
-      <point x="-51.0" y="-54.5" />
-      <point x="204.45833333333326" y="265.0" />
-      <point x="93.2833333333333" y="265.0" />
+      <point x="-55.0" y="-54.5" />
+      <point x="1377.3833333333334" y="195.0" />
+      <point x="1249.1666666666667" y="195.0" />
       <point x="0.0" y="89.5" />
     </edge>
-    <edge source="me.masha.Objects.Wind" target="me.masha.Interfaces.Flyable" relationship="REALIZATION">
-      <point x="51.0" y="-54.5" />
-      <point x="936.9583333333334" y="245.0" />
-      <point x="1459.4166666666665" y="245.0" />
-      <point x="1459.4166666666665" y="215.0" />
-      <point x="1714.7833333333333" y="215.0" />
-      <point x="0.0" y="31.0" />
-    </edge>
-    <edge source="me.masha.Objects.Tree" target="me.masha.Interfaces.Talkable" relationship="REALIZATION">
-      <point x="51.0" y="-54.5" />
-      <point x="306.4583333333333" y="255.0" />
-      <point x="1178.2083333333333" y="255.0" />
-      <point x="1178.2083333333333" y="225.0" />
-      <point x="1401.2083333333333" y="225.0" />
-      <point x="0.0" y="31.0" />
-    </edge>
     <edge source="me.masha.Objects.Scooperfield" target="me.masha.Interfaces.Visible" relationship="REALIZATION">
-      <point x="51.0" y="-89.0" />
-      <point x="644.7083333333333" y="275.0" />
-      <point x="748.8416666666667" y="275.0" />
-      <point x="748.8416666666667" y="195.0" />
-      <point x="822.7083333333333" y="195.0" />
+      <point x="-51.0" y="-112.5" />
+      <point x="770.0" y="205.0" />
+      <point x="704.0" y="205.0" />
+      <point x="704.0" y="185.0" />
+      <point x="620.5" y="185.0" />
       <point x="0.0" y="31.0" />
     </edge>
     <edge source="me.masha.Objects.Scooperfield" target="me.masha.Interfaces.Seemable" relationship="REALIZATION">
-      <point x="51.0" y="-89.0" />
-      <point x="644.7083333333333" y="275.0" />
-      <point x="748.8416666666667" y="275.0" />
-      <point x="748.8416666666667" y="195.0" />
-      <point x="506.95833333333326" y="195.0" />
+      <point x="-51.0" y="-112.5" />
+      <point x="770.0" y="205.0" />
+      <point x="704.0" y="205.0" />
+      <point x="704.0" y="185.0" />
+      <point x="1025.825" y="185.0" />
       <point x="0.0" y="31.0" />
     </edge>
     <edge source="me.masha.Objects.Scooperfield" target="me.masha.Interfaces.Watchable" relationship="REALIZATION">
-      <point x="51.0" y="-89.0" />
-      <point x="644.7083333333333" y="275.0" />
-      <point x="748.8416666666667" y="275.0" />
-      <point x="748.8416666666667" y="195.0" />
-      <point x="325.95833333333326" y="195.0" />
+      <point x="-51.0" y="-112.5" />
+      <point x="770.0" y="205.0" />
+      <point x="704.0" y="205.0" />
+      <point x="704.0" y="185.0" />
+      <point x="443.5" y="185.0" />
       <point x="0.0" y="31.0" />
     </edge>
     <edge source="me.masha.Objects.Wind" target="me.masha.Objects.Essence" relationship="GENERALIZATION">
-      <point x="-51.0" y="-54.5" />
-      <point x="834.9583333333333" y="265.0" />
-      <point x="93.2833333333333" y="265.0" />
+      <point x="-53.0" y="-54.5" />
+      <point x="1615.3833333333334" y="195.0" />
+      <point x="1249.1666666666667" y="195.0" />
       <point x="0.0" y="89.5" />
     </edge>
     <edge source="me.masha.Objects.Scooperfield" target="me.masha.Objects.Essence" relationship="GENERALIZATION">
-      <point x="-51.0" y="-89.0" />
-      <point x="542.7083333333333" y="265.0" />
-      <point x="93.2833333333333" y="265.0" />
+      <point x="51.0" y="-112.5" />
+      <point x="872.0" y="195.0" />
+      <point x="1249.1666666666667" y="195.0" />
       <point x="0.0" y="89.5" />
     </edge>
     <edge source="me.masha.Objects.Bird" target="me.masha.Objects.Essence" relationship="GENERALIZATION">
-      <point x="-51.0" y="-54.5" />
-      <point x="1164.9583333333333" y="265.0" />
-      <point x="93.2833333333333" y="265.0" />
+      <point x="51.0" y="-54.5" />
+      <point x="493.0333333333333" y="195.0" />
+      <point x="1249.1666666666667" y="195.0" />
       <point x="0.0" y="89.5" />
     </edge>
     <edge source="me.masha.Objects.Bird" target="me.masha.Interfaces.Talkable" relationship="REALIZATION">
-      <point x="51.0" y="-54.5" />
-      <point x="1266.9583333333333" y="235.0" />
-      <point x="1624.2083333333333" y="235.0" />
-      <point x="1624.2083333333333" y="185.0" />
-      <point x="1401.2083333333333" y="185.0" />
+      <point x="-51.0" y="-54.5" />
+      <point x="391.0333333333333" y="205.0" />
+      <point x="135.66666666666674" y="205.0" />
+      <point x="135.66666666666674" y="195.0" />
+      <point x="246.0" y="195.0" />
       <point x="0.0" y="31.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="0.7854526425954997" showDependencies="false" x="881.5" y="374.5" />
-  <SelectedNodes />
+  <settings layout="Hierarchic" zoom="0.7726056714820759" showDependencies="false" x="850.5000000000002" y="353.0" />
+  <SelectedNodes>
+    <node>me.masha.Interfaces.Visible</node>
+  </SelectedNodes>
   <Categories>
     <Category>Constructors</Category>
     <Category>Fields</Category>

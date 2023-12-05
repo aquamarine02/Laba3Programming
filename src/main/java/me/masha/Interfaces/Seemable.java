@@ -1,5 +1,5 @@
 package me.masha.Interfaces;
 
 public interface Seemable {
-    public void seem(String what);
+    void seem(String what);
 }

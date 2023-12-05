@@ -23,16 +23,13 @@ public class Bird extends Essence implements Flyable, Talkable {
             case There:
                 System.out.print(" там, ");
                 break;
-            case Impulses:
-                System.out.println("порывами");
-                break;
             default:
                 break;
         }
     }
 
     @Override
-    public void talk(String where, String what) {
-        System.out.println(where + what + getName() + "наполняя воздух веселым чириканьем.");
+    public void talk(String where, String how) {
+        System.out.println(where + "порхали "+ getName() + how);
     }
 }
